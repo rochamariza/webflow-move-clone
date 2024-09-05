@@ -68,6 +68,9 @@ body{
     background-color: #cfff13;
     color: #121212;
     transition: 0.2s;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
 }
 .info-header button:hover{
     background-color: white;
@@ -270,10 +273,10 @@ body{
     gap: 20px;
 }
 .plus2 .pic-2 img{
-    width: 592px;
+    width: 593px;
 }
 .plus2 .pic-3 img{
-    width: 592px;
+    width: 593px;
 }
 .plus2 .pic-3{
     position: relative;
@@ -295,6 +298,187 @@ body{
 /* Second Break */
 .number-break2{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-between;
+    margin-block: 90px 40px;
+    margin-inline: 90px;
+}
+.number-break2 .title{
+    width: 2200px;
+    
+}
+.number-break2 h3{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+.number-break2 .text p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-rows: auto;
+    grid-template-columns: 7fr 1fr 4fr;
+    min-height: 20rem;
+    margin-top: 3rem;
+    margin-inline: 100px;
+    margin-block: 30px;
+}
+.grid-1{
+    background-color: #303030;
+    color: #cfff13;
+    border-radius: 20px;
+}
+ .grid-3 .grid-stats{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    position: relative;
+}
+.grid-1 p{
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: white;
+    margin-block: 40px;
+    margin-inline: 40px;
+}
+.grid-1 h1{
+    font-size: 10rem;
+    letter-spacing: -.06em;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: .8;
+    padding: 2rem;
+    margin-top: 120px;
+}
+.grid-2{
+    border-radius: 20px;
+}
+.grid-2 img{
+    object-fit: cover;
+    width: 300px;
+}
+.grid-3{
+    background-color: #cfff13;
+    color: #121212;
+    border-radius: 20px;
+}
+.grid-3 p{
+    font-size: 1rem;
+    line-height: 1.5rem; 
+    color: #121212;
+    margin-block: 40px;
+    margin-inline: 40px;
+}
+.grid-3 h1{
+    letter-spacing: -.06em;
+    font-size: 7rem;
+    font-weight: 700;
+    line-height: .8;
+    padding: 2rem;
+    margin-top: 120px;
+}
+
+.trainers{
+    display: flex;
+    margin-block: 100px;
+    margin-inline: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.trainers .intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.trainers .intro h1{
+    font-size: 3.75rem;
+    line-height: 1;
+}
+.trainers .intro p{
+    text-align: center;
+    max-width: 44rem;
+    margin-block: 40px;
+    color: white;
+}
+.professionals{
+    display: flex;
+    gap: 30px;
+}
+.professionals h1{
+    font-size: 3rem; /* 48px */
+    line-height: 1;
+}
+.professionals img{
+    object-fit: cover;
+    width: 350px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 1.25rem;
+}
+.professionals p{
+    text-align: justify;
+    max-width: 350px;
+    color: white;
+    font-weight: 400;
+}
+.professionals button{
+    margin-block: 40px;
+    font-weight: 900;
+    font-size: 14px;
+    width: 140px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #cfff13;
+    background-color: #121212;
+    color: #cfff13;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+.professionals button:hover{
+    background-color: #cfff13;
+    border: 1px solid;
+    border-color: #121212;
+    color: #121212;
+}
+.testimonial{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.testimonial h1{
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-bottom: 60px;
+    margin-inline: 60px;
+}
+.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.testimonials img{
+    width: 15rem;
+}
+.testimonial-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.testimonials .testimonial-text h4{
+    width: 15rem;
+    text-align: justify;
+    margin-bottom: 5px;
 }
